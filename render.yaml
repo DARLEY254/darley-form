@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: darley-form
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
